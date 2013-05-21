@@ -66,12 +66,12 @@ NB: This is just an example of one of my actions, it's easy to duplicate.
 NB: This is just an example of one of my actions. It's easy to duplicate.
 
 **emcp**
-:	Move the selected notes to my Commonplace Notebook.
+:	Move the selected notes to my Commonplace notebook.
 
 ### Tag and Move Selected Notes to a Notebook
 
 **emcs**
-:	Move selected notes to Code Snippets Notebook and tag them "code"
+:	Move selected notes to Code Snippets notebook and tag them "code"
 
 **emcs**
 :	Move selected notes to CHILD_NAME's Artwork notebook and tag them "family" and "CHILD_NAME"
@@ -80,7 +80,7 @@ NB: This is just an example of one of my actions. It's easy to duplicate.
 :	Move selected notes to Gift Ideas notebook and tag them "gift_idea"
 
 **emmw**
-:	Move selected notes to Mistakes Notebook and tag them "word" and "definition".
+:	Move selected notes to Mistakes notebook and tag them "word" and "definition".
 
 
 ## Evernote Search Tools
