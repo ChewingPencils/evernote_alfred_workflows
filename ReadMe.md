@@ -2,8 +2,8 @@
 
 ### Daily Notes (Log)
 
-* Creates one new note with titled "Daily Notes for YYYY-MM-DD"
-* The note is created in a Notebook called "Daily Notes"
+* Creates one new note with titled "Daily Notes for YYYY-MM-DD".
+* The note is created in a Notebook called "Daily Notes".
 * After the note is created, additional calls will append to the note.
 * Useful if used in conjunction with Drafts.
 
