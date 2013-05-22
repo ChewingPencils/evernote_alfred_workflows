@@ -3,6 +3,7 @@
 ### Daily Notes (Log)
 
 * Creates one new note with titled "Daily Notes for YYYY-MM-DD"
+* The note is created in a Notebook called "Daily Notes"
 * After the note is created, additional calls will append to the note.
 * Useful if used in conjunction with Drafts.
 
@@ -17,7 +18,7 @@
 ### Get Tools
 
 **eni**
-:	Get Selected note's ID in URL form.
+:	Get selected note's ID in URL form.
 
 
 ### Set Tools
@@ -96,13 +97,13 @@ NB: There is more functionality than listed here:
 :	Notes updated today.
 
 **euy**
-:	Notes Updated Yesterday.
+:	Notes updated yesterday.
 
 **ewr**
 :	Weekly Review - All notes updated the past week.
 
 **ect**
-:	Notes Created Today.
+:	Notes created today.
 
 **ecy**
 :	Notes created yesterday.
