@@ -72,13 +72,13 @@ NB: This is just an example of one of my actions. It's easy to duplicate.
 ### Tag and Move Selected Notes to a Notebook
 
 **emcs**
-:	Move selected notes to Code Snippets notebook and tag them "code"
+:	Move selected notes to Code Snippets notebook and tag them "code".
 
 **emcs**
-:	Move selected notes to CHILD_NAME's Artwork notebook and tag them "family" and "CHILD_NAME"
+:	Move selected notes to CHILD_NAME's Artwork notebook and tag them "family" and "CHILD_NAME".
 
 **emgi**
-:	Move selected notes to Gift Ideas notebook and tag them "gift_idea"
+:	Move selected notes to Gift Ideas notebook and tag them "gift_idea".
 
 **emmw**
 :	Move selected notes to Mistakes notebook and tag them "word" and "definition".
@@ -157,7 +157,7 @@ NB: There is more functionality than listed here:
 :	Notes not created by apps other than Evernote.
 
 **etitle**
-:	Search for notes that contain the query in the title
+:	Search for notes that contain the query in the title.
 
 **etitle+Shift**
 :	Search for notes that do not contain the query in the title.
@@ -191,10 +191,10 @@ NB: There is more functionality than listed here:
 ### A Few Examples Regarding Tags and Notebooks
 
 **ecml**
-:	Child Medical Log. Searches on two tags: 'your_childs_name_here' and 'medical'
+:	Child Medical Log. Searches on two tags: 'your_childs_name_here' and 'medical'.
 
 **erbls**
-: Reading Backlog - Security. Searches Notebook "Books to read" and tag "security"
+: Reading Backlog - Security. Searches Notebook "Books to read" and tag "security".
 
 ### Evernote Templates
 
