@@ -83,6 +83,29 @@ NB: This is just an example of one of my actions. It's easy to duplicate.
 **emmw**
 :	Move selected notes to Mistakes notebook and tag them "word" and "definition".
 
+### 2013-10-11 - New Actions
+
+**etags**
+: Go to tags
+
+**enotes**
+: Go to Notes
+
+**enbook**
+: Go to Notebooks
+
+**ehis**
+: Get Note History
+
+**ern**
+: Rename Selected Notes
+
+**eread** 
+: Read Later–Create a ToDo note from the front Safari Tab (Change the Notebook name in the AppleScript if you don't like Kindling.)
+
+**eli**
+: Look Into–Create a ToDo note from the front Safari Tab (Change the Notebook name in the AppleScript if you don't like Kindling.)
+
 
 ## Evernote Search Tools
 
