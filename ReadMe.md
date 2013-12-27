@@ -36,7 +36,7 @@
 * Move selected note(s) to the Timeline notebook.
 * Move selected note(s) to the Inbox notebook
 
-#### Note Bits
+### Note Bits
 
 * Get note history.
 * Get note information.
