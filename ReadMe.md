@@ -1,228 +1,194 @@
-## Evernote Tools
+  ## Evernote Tools
 
-### Daily Notes (Log)
+ ### Daily Notes (Log)
 
-* Creates one new note with titled "Daily Notes for YYYY-MM-DD".
-* The note is created in a Notebook called "Daily Notes".
-* After the note is created, additional calls will append to the note.
-* Useful if used in conjunction with Drafts.
+ * Creates one new note with titled "Daily Notes for YYYY-MM-DD".
+ * The note is created in a notebook called "Daily Notes".
+ * After the note is created, additional calls will append to the note.
+ * Useful if used in conjunction with Drafts.
 
+ **dn**
+ :  Appends to Daily Notes note.
 
-**dn**
-:	Appends to Daily Notes note.
+ **dn+cmd**
+ :  Appends to Daily Notes note and opens the the note.
 
-**dn+cmd**
-:	Appends to Daily Notes note and opens the the note.
 
+ ### Date Stamps
 
-### Get Tools
+ * Append date stamp to note body.
+ * Append date stamp to note body and prepend title.
 
-**eni**
-:	Get selected note's ID in URL form.
+ ### Move and Tag Selected Notes
 
+ * Move the selected note(s) to the Filing Cabinet notebook; tags are optional.
+     * +cmd adds tag *receipt*.
+ * Move the selected note(s) to the Commonplace notebook; tags are optional.
+     * +cmd adds tag *quote*.
+ * Move the selected note(s) to the Gift Ideas notebook; tags are optional.
+ * Move the selected note(s) to the Code Snippets notebook; tagged *code*; additional tags are optional.
+ * Move the selected note(s) to the Mistakes notebook; tagged *definition* and *word*.
 
-### Set Tools
+ ### Move to notebook
 
-**esu**
-:	Set the selected notes' source URL to the frontmost Safari tab.
+ * Move selected note(s) to the How-To notebook.
+ * Move selected note(s) to the General Reference notebook.
+ * Move selected note(s) to the Timeline notebook.
+ * Move selected note(s) to the Inbox notebook
 
+ #### Note Bits
 
-### Modify Tools
+ * Get note history.
+ * Get note information.
+ * Get note link.
+ * Make note plain text.
+ * Set note's URL to the front Safari Tab.
 
-**ead**
-:	Prepend selected notes' title with date stamp; append note's body with date stamp.
+ ### Operational
 
-**ed**
-:	Append selected notes' body with date stamp.
+ * Move to Tags.
+ * Move to Notes.
+ * Move to Notebooks.
 
-**ept**
-:	Prepend selected notes' title with with query string.
+ ### Running Lists
 
-### Set Tags
+ * An Example of how to append to a specific note.
 
-**ets**
-:	Tag selected notes with son's name.
-:	**You will need to edit this action**
+ ### Tags
 
-**etw**
-:	Tag selected notes with wife's name.
-:	**You will need to edit this action**
+ * Tag selected note(s) with wife's name and family.
+ * Tag selected note(s) with son's name and family.
+ * Set Tags.
+    * Tags can not have spaces.
+    * Tags are separated by spaces.
+ * Delete Tag.
+    * Warning: Will also delete sub-tags.
 
-**eto**
-:	Tag selected notes with out_board_brain.
+ ### Titles
 
-**etag**
-:	Tag selected notes with a single tag.
+ * Find and Replace Text in Note Title(s).
+ * Title case.
+ * Prepend Title.
 
 
-### Log Files
 
-NB: This is just an example of one of my actions, it's easy to duplicate.
 
-**eaw**
-:	Append to Note "Way of the Future".
+ ## Evernote Search Tools
 
-### Move Selected Notes to a Notebook
+ NB: There is more functionality than listed here:
+ 1. Most search actions can be opened in a new window with the action modifier: cmd.
+ 2. All Search action have optional queries. Just type the keyword a space and a query term.
 
-NB: This is just an example of one of my actions. It's easy to duplicate.
+ **es**
+ :  Basic Evernote search.
 
-**emcp**
-:	Move the selected notes to my Commonplace notebook.
+ **eut**
+ :  Notes updated today.
 
-### Tag and Move Selected Notes to a Notebook
+ **euy**
+ :  Notes updated yesterday.
 
-**emcs**
-:	Move selected notes to Code Snippets notebook and tag them "code".
+ **ewr**
+ :  Weekly Review - All notes updated the past week.
 
-**emcs**
-:	Move selected notes to CHILD_NAME's Artwork notebook and tag them "family" and "CHILD_NAME".
+ **ect**
+ :  Notes created today.
 
-**emgi**
-:	Move selected notes to Gift Ideas notebook and tag them "gift_idea".
+ **ecy**
+ :  Notes created yesterday.
 
-**emmw**
-:	Move selected notes to Mistakes notebook and tag them "word" and "definition".
+ **ec1w**
+ :  Notes created last week.
 
-### 2013-10-11 - New Actions
+ **ec2w**
+ :  Notes created two weeks ago.
 
-**etags**
-: Go to tags
+ **ec3w**
+ :  Notes created three weeks ago.
 
-**enotes**
-: Go to Notes
+ **ecl**
+ :  Notes with any checkboxes.
 
-**enbook**
-: Go to Notebooks
+ **ecl+opt**
+ :  Notes with unchecked checkboxes.
 
-**ehis**
-: Get Note History
+ **epdf**
+ :  Notes with PDF Attachments.
 
-**ern**
-: Rename Selected Notes
+ **epdf+Shift**
+ :  Notes without PDF Attachments.
 
-**eread** 
-: Read Later–Create a ToDo note from the front Safari Tab (Change the Notebook name in the AppleScript if you don't like Kindling.)
+ **eclip**
+ :  Notes containing web clippings.
 
-**eli**
-: Look Into–Create a ToDo note from the front Safari Tab (Change the Notebook name in the AppleScript if you don't like Kindling.)
+ **eclip+Shift**
+ :  Notes without web clippings.
 
+ **eshared**
+ :  Notes that are shared.
 
-## Evernote Search Tools
+ **eiphoto**
+ :  Notes with images from iPhone. (Mobile)
 
-NB: There is more functionality than listed here:
-1. Most search actions can be opened in a new window with the action modifier: cmd.
-2. All Search action have optional queries. Just type the keyword a space and a query term.
+ **eiphoto+Shift**
+ :  Notes without images from iPhone. (Mobile)
 
-**es**
-:	Basic Evernote search.
+ **emob**
+ :  Notes created by a mobile device.
 
-**eut**
-:	Notes updated today.
+ **emob+Shift**
+ :  Notes not created by a mobile device.
 
-**euy**
-:	Notes updated yesterday.
+ **eapp**
+ :  Notes created by apps other than Evernote.
 
-**ewr**
-:	Weekly Review - All notes updated the past week.
+ **eapp+Shift**
+ :  Notes not created by apps other than Evernote.
 
-**ect**
-:	Notes created today.
+ **etitle**
+ :  Search for notes that contain the query in the title.
 
-**ecy**
-:	Notes created yesterday.
+ **etitle+Shift**
+ :  Search for notes that do not contain the query in the title.
 
-**ec1w**
-:	Notes created last week.
+ **eimg**
+ :  Notes that contain image attachments.
 
-**ec2w**
-:	Notes created two weeks ago.
+ **eimg+opt**
+ :  Notes that contain Gif attachments.
 
-**ec3w**
-:	Notes created three weeks ago.
+ **eimg+Shift**
+ :  Notes that do not contain image attachments.
 
-**ecl**
-:	Notes with any checkboxes.
+ ### NB: The Following Actions Do Not Have a cmd Modifier.
 
-**ecl+opt**
-:	Notes with unchecked checkboxes.
+ **eaudio**
+ :  Notes that contain audio attachments.
 
-**epdf**
-:	Notes with PDF Attachments.
+ **evid**
+ :  Notes that contain video attachments.
 
-**epdf+Shift**
-:	Notes without PDF Attachments.
+ **eexcel**
+ :  Notes that contain MS Excel attachments.
 
-**eclip**
-:	Notes containing web clippings.
+ **eword**
+ :  Notes that contain MS Word attachments.
 
-**eclip+Shift**
-:	Notes without web clippings.
+ **epp**
+ :  Notes that contain MS Powerpoint attachments.
 
-**eshared**
-:	Notes that are shared.
+ ### A Few Examples Regarding Tags and notebooks
 
-**eiphoto**
-:	Notes with images from iPhone. (Mobile)
+ **ecml**
+ :  Child Medical Log. Searches on two tags: 'your_childs_name_here' and 'medical'.
 
-**eiphoto+Shift**
-:	Notes without images from iPhone. (Mobile)
+ **erbls**
+ : Reading Backlog - Security. Searches notebook "Books to read" and tag "security".
 
-**emob**
-:	Notes created by a mobile device.
+ ### Evernote Templates
 
-**emob+Shift**
-:	Notes not created by a mobile device.
+ See [Taming the Elephant: Awesome Evernote Tips and Tricks](http://mac.tutsplus.com/tutorials/productivity/taming-the-elephant-awesome-evernote-tips-and-tricks/) for how to make templates. I'm currently rethinking my templates, but this is a very simple example of how you can trigger them with Alfred.
 
-**eapp**
-:	Notes created by apps other than Evernote.
+ NB: You need to add the path to your template file in the AppleScript.
 
-**eapp+Shift**
-:	Notes not created by apps other than Evernote.
-
-**etitle**
-:	Search for notes that contain the query in the title.
-
-**etitle+Shift**
-:	Search for notes that do not contain the query in the title.
-
-**eimg**
-:	Notes that contain image attachments.
-
-**eimg+opt**
-:	Notes that contain Gif attachments.
-
-**eimg+Shift**
-:	Notes that do not contain image attachments.
-
-### NB: The Following Actions Do Not Have a cmd Modifier.
-
-**eaudio**
-:	Notes that contain audio attachments.
-
-**evid**
-:	Notes that contain video attachments.
-
-**eexcel**
-:	Notes that contain MS Excel attachments.
-
-**eword**
-:	Notes that contain MS Word attachments.
-
-**epp**
-:	Notes that contain MS Powerpoint attachments.
-
-### A Few Examples Regarding Tags and Notebooks
-
-**ecml**
-:	Child Medical Log. Searches on two tags: 'your_childs_name_here' and 'medical'.
-
-**erbls**
-: Reading Backlog - Security. Searches Notebook "Books to read" and tag "security".
-
-### Evernote Templates
-
-See [Taming the Elephant: Awesome Evernote Tips and Tricks](http://mac.tutsplus.com/tutorials/productivity/taming-the-elephant-awesome-evernote-tips-and-tricks/) for how to make templates. I'm currently rethinking my templates, but this is a very simple example of how you can trigger them with Alfred.
-
-NB: You need to add the path to your template file in the AppleScript.
-
-One thing to remember: the content of a note is HTML. You could make some very stylish notes if that floats your boat.
+ One thing to remember: the content of a note is HTML. You could make some very stylish notes if that floats your boat.
